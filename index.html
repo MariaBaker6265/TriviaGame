@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trivia Game</title>
+	<!-- Link to css reset stylesheet.-->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<!-- Link to css stylesheet.-->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- Link to jQuery.-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- Link to javascript.-->
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+	<!-- Link to bootstrap.-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!--Link to google fonts.-->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <!--Set the charcter set to UTF-8-->
+    <meta charset="UTF-8">
+    <!--Viewport-->
+</head>
+<body>
+	<!--Create a main container-->
+	<div class="container-fluid">
+		
+		<div class="main-container">
+
+			<div class="row" id="title">Cleveland Trivia</div>
+			<div class="row" id="timerDiv">00:00</div>
+			<button type="button" class="btn btn-primary" id ="start">Start Timer</button>
+			<button type="button" class="btn btn-primary" id = "reset">Reset Timer</button>
+			<div id = "correct">Number Correct</div>
+			<div class="row question">Which Olimpic athlete is from Cleveland?</div>
+			<div class="row"><input type="radio" id="bruceJenner" name="athlete" value="bruceJenner"><label>Bruce Jenner</label><input type="radio" id="usainBolt" name="athlete" value="usainBolt"><label>Usain Bolt</label><input type="radio" id="jesseOwens" name="athlete" value="jesseOwens"><label>Jesse Owens</label><input type="radio" id="maryRetton" name="athlete" value="maryRetton"><label>Mary Lou Retton</label></div>
+			<br>
+			<div class="row question">Which Wizard of Oz character was from Cleveland?Bad witch</div>
+			<div class="row"><input type="radio" id="tinMan" name="wizOz" value="tinMan"><label>The Tin Man</label><input type="radio" id="dorothy" name="wizOz" value="dorothy"><label>Dorothy</label><input type="radio" id="badWitch" name="wizOz" value="badWitch"><label>Bad Witch</label><input type="radio" id="scarecrow" name="wizOz" value="scarecrow"><label>Scarecrow</label></div>
+			<br>
+			<div class="row question">Which of these famous chefs opened his first restaurant in Cleveland?</div>
+			<div class="row"><input type="radio" id="chefBoyardee" name="chefs"><label>Chef Boyardee</label><input type="radio" id="michaelSymon" name="chefs"><label>Michael Symon</label><input type="radio" id="guyFieri" name="chefs"><label>Guy Fieri</label><input type="radio" id="bobbyFlay" name="chefs"><label>Bobby Flay</label></div>
+			<br>
+			<div class="row question">Which Cleveland street used to be known as "Millionaire's Row?</div>
+			<div class="row"><input type="radio" id="lakeRoad" name="street"><label>Lake Road</label><input type="radio" id="euclidAve" name="street"><label>Euclid Avenue</label><input type="radio" id="lakeShore" name="street"><label>Lakeshore Boulevard</label><input type="radio" id="cedarRoad" name="street"><label>Cedar Road</label></div>
+			<br>
+			<div class="row question">How many times has the Cuyahoga River caught on fire?-13</div>
+			<div class="row"><input type="radio" id="num1" name="fire" class="question"><label>1</label><input type="radio" id="num2" name="fire"><label>3</label><input type="radio" id="num7" name="fire"><label>7</label><input type="radio" id="num13" name="fire"><label>13</label></div>
+			<br>
+			<div class="row question">In what years did the Cleveland Indians win the World Series?  1920,1948</div>
+			<div class="row"><input type="radio" id="year1920" name="winBall"><label>1920 & 1948</label>
+			<input type="radio" id="year1932" name="winBall"><label>1932 & 1945</label><input type="radio" id="year1999" name="winBall"><label>1999 & 2010</label><input type="radio" id="year1985" name="winBall"><label>1985 & 2017</label></div>
+	
+		</div>
+
+	</div>
+
+</body>
+</html>
